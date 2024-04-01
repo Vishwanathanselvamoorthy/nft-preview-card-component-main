@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+.main-container {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 400px;
+  max-height: min-content;
+  padding: 30px;
+  border-radius: 20px;
+}
+.main-container .eth-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.main-container h1 {
+  margin: 15px 0px;
+  color: white;
+  font-size: 25px;
+}
+.main-container p {
+  color: hsl(215, 51%, 70%);
+  margin: 15px 0px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.main-container .content-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin: 18px 0px;
+}
+.main-container .content-1 .eth-contain,
+.clock-contain {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-container .content-1 .eth-contain img,
+.clock-contain img {
+  width: 15px;
+}
+.main-container .content-1 .eth-contain p {
+  color: hsl(178, 100%, 50%);
+  font-weight: 700;
+}
+.main-container .content-2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main-container .content-2 img {
+  width: 40px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 1px;
+}
+.main-container .content-2 p span {
+  color: white;
+}
