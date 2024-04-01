@@ -20,13 +20,21 @@ body {
   border-radius: 20px;
 }
 .main-container .eth-img {
+  position: relative;
+}
+.main-container .eth-img img {
   width: 100%;
   border-radius: 10px;
 }
+
 .main-container h1 {
   margin: 15px 0px;
   color: white;
   font-size: 25px;
+  cursor: pointer;
+}
+.main-container h1:hover {
+  color: hsl(178, 100%, 50%);
 }
 .main-container p {
   color: hsl(215, 51%, 70%);
@@ -68,4 +76,29 @@ body {
 }
 .main-container .content-2 p span {
   color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.main-container .content-2 p span:hover {
+  color: hsl(178, 100%, 50%);
+}
+.main-container .img-hover-div {
+  background-color: hsl(178, 100%, 50%, 60%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.main-container .img-hover-div:hover {
+  opacity: 1;
+  border-radius: 10px;
+}
+.main-container .img-hover-div img {
+  position: absolute;
+  width: min-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
